@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GreenLights">
         <activity
+            android:name=".dialog_Add_Crash"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -18,6 +21,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCcDQQYH96-7HWWQGYaLoKU_Ua0Haagoss" />
     </application>
 
 </manifest>
